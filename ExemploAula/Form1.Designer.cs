@@ -39,49 +39,53 @@
             // lbllogin
             // 
             lbllogin.AutoSize = true;
-            lbllogin.Location = new Point(216, 67);
+            lbllogin.Font = new Font("Segoe UI", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbllogin.Location = new Point(223, 54);
             lbllogin.Name = "lbllogin";
-            lbllogin.Size = new Size(42, 15);
+            lbllogin.Size = new Size(120, 47);
             lbllogin.TabIndex = 0;
             lbllogin.Text = "LOGIN";
             // 
             // lblusuario
             // 
             lblusuario.AutoSize = true;
-            lblusuario.Location = new Point(124, 129);
+            lblusuario.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblusuario.Location = new Point(87, 161);
             lblusuario.Name = "lblusuario";
-            lblusuario.Size = new Size(47, 15);
+            lblusuario.Size = new Size(108, 37);
             lblusuario.TabIndex = 1;
             lblusuario.Text = "Usuário";
             // 
             // lblsenha
             // 
             lblsenha.AutoSize = true;
-            lblsenha.Location = new Point(124, 165);
+            lblsenha.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblsenha.Location = new Point(87, 211);
             lblsenha.Name = "lblsenha";
-            lblsenha.Size = new Size(39, 15);
+            lblsenha.Size = new Size(89, 37);
             lblsenha.TabIndex = 2;
             lblsenha.Text = "Senha";
             // 
             // txtusuario
             // 
-            txtusuario.Location = new Point(216, 121);
+            txtusuario.Location = new Point(235, 175);
             txtusuario.Name = "txtusuario";
-            txtusuario.Size = new Size(100, 23);
+            txtusuario.Size = new Size(168, 23);
             txtusuario.TabIndex = 3;
             // 
             // txtsenha
             // 
-            txtsenha.Location = new Point(216, 157);
+            txtsenha.Location = new Point(235, 226);
             txtsenha.Name = "txtsenha";
-            txtsenha.Size = new Size(100, 23);
+            txtsenha.Size = new Size(168, 23);
             txtsenha.TabIndex = 4;
             // 
             // btnlogin
             // 
-            btnlogin.Location = new Point(218, 238);
+            btnlogin.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnlogin.Location = new Point(223, 324);
             btnlogin.Name = "btnlogin";
-            btnlogin.Size = new Size(75, 23);
+            btnlogin.Size = new Size(153, 60);
             btnlogin.TabIndex = 5;
             btnlogin.Text = "Login";
             btnlogin.UseVisualStyleBackColor = true;
