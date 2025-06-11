@@ -1,6 +1,6 @@
 ﻿namespace ExemploAula
 {
-    partial class Form1
+    partial class frmlogin
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            lbllogin = new Label();
+            SuspendLayout();
+            // 
+            // lbllogin
+            // 
+            lbllogin.AutoSize = true;
+            lbllogin.Location = new Point(216, 67);
+            lbllogin.Name = "lbllogin";
+            lbllogin.Size = new Size(42, 15);
+            lbllogin.TabIndex = 0;
+            lbllogin.Text = "LOGIN";
+            // 
+            // frmlogin
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1017, 577);
+            Controls.Add(lbllogin);
+            Name = "frmlogin";
+            Text = "Login";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lbllogin;
     }
 }
