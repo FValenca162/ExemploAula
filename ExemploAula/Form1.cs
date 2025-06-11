@@ -14,13 +14,16 @@ namespace ExemploAula
                 MessageBox.Show("Usuario Logado com sucesso");
                 txtusuario.Clear();
                 txtsenha.Clear();
-                    
+                Hide();
+                frmMenu menu = new frmMenu();
+                menu.Show(this);
             }               
             else
             {
                 MessageBox.Show("Usuario/senha invalidos");
                 txtusuario.Clear();
                 txtsenha.Clear();
+
             }
         }
     }
