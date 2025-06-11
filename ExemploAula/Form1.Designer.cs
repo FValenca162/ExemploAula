@@ -83,12 +83,13 @@
             // btnlogin
             // 
             btnlogin.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnlogin.Location = new Point(223, 324);
+            btnlogin.Location = new Point(235, 317);
             btnlogin.Name = "btnlogin";
-            btnlogin.Size = new Size(153, 60);
+            btnlogin.Size = new Size(148, 51);
             btnlogin.TabIndex = 5;
             btnlogin.Text = "Login";
             btnlogin.UseVisualStyleBackColor = true;
+            btnlogin.Click += btnlogin_Click;
             // 
             // frmlogin
             // 
